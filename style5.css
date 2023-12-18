@@ -1,0 +1,154 @@
+*{  background-color: burlywood;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: auto;
+}*
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.contenedor{
+    display:flex;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-top: 0;
+}
+
+.text-area {
+    background-color: rgb(236, 216, 216);
+    height: 400px;
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    resize: none;
+    border-radius: 10px;
+}
+::placeholder { color: #0A3871;}
+    .text-area:focus {
+      outline: none;
+    }
+     
+.mensaje{
+    background: rgb(236, 216, 216);
+    background-image: url("imagenesencriptador/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 90px;
+    padding-left: 20px;
+    position: absolute;
+    resize: none;
+}
+
+.mensaje:focus{
+    outline: none;
+    } 
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar{
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 110px;
+    margin-top: 635px;
+    position: static;
+    width: 336px;
+}
+
+.informacion{
+    color: black;
+    font-size: 18px;
+}
+
+footer{
+    align-self: flex-end;
+    background-color: rgb(207, 172, 172);
+    line-height: 2;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1025px) and (min-width:350px) {
+    .logo{
+        margin: auto;
+    }
+    .contenedor{
+        display: block;
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+    }
+    .informacion{
+        width:auto;
+        
+    }
+    .text-area{
+        width: 100%;
+        margin: auto;
+    }
+    .mensaje{
+        width: auto;
+        margin: 10px;
+    }
+    .botones{
+        display:block;
+        height: auto;
+        width: auto;
+    }
+    .btn-encriptar{
+        margin: 10px;
+    }
+    .btn-desencriptar{
+        background-color: yellow;
+        color: red;
+        margin: 10px;
+    }
+    .copiar{
+        margin-left: auto;
+        margin-top: 500px;
+        background-color: yellow;
+        color:blue;
+    }
+    footer{
+        margin-top: 30px;
+        height: auto;
+        width: auto;
+    }
+
+}
