@@ -36,7 +36,7 @@
      
 .mensaje{
     background: rgb(236, 216, 216);
-    background-image: url("enc/imagenesencriptador/Muñeco.png");
+    background-image: url("imagenesencriptador/Muñeco.png");
     background-repeat: no-repeat;
     border: none;
     border-radius: 10px;
@@ -150,5 +150,4 @@ footer{
         height: auto;
         width: auto;
     }
-
 }
